@@ -6,14 +6,14 @@ on:
   watch:
     types: [started]
 env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-  APP_NAME: ${{ secrets.APP_NAME }}
-  SQLUSER: ${{ secrets.SQLUSER }}
-  DATABASE: ${{ secrets.DATABASE }}
-  SQLPASSWORD: ${{ secrets.SQLPASSWORD }}
-  SQLHOST: ${{ secrets.SQLHOST }}
-  SQLPORT: ${{ secrets.SQLPORT }}
-  SQLNAME: ${{ secrets.SQLNAME }}
+  FLY_API_TOKEN: ${{ fo1_aHPimYi-WJLv_E1-WtB933o_Uql_9GhL0qn1n-vZmTM }}
+  APP_NAME: ${{ huluwa }}
+  SQLUSER: ${{ huluwa }}
+  DATABASE: ${{ mysq }}
+  SQLPASSWORD: ${{ huluwa888 }}
+  SQLHOST: ${{ db4free.net }}
+  SQLPORT: ${{ 3306 }}
+  SQLNAME: ${{ huluwa }}
 jobs:
   deploy:
     name: Deploy app
